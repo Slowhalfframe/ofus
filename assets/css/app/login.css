@@ -1,0 +1,60 @@
+.container{
+  background-color: #fff;
+  /*height: 92vh;*/
+  padding-top: 68px;
+}
+.main{
+  width: 360px;
+  height: 92vh;
+  /*background-color: #aaa;*/
+  margin: 0 auto;
+  text-align: center;
+}
+.main .logo{
+  width: 66px;
+  height: 66px;
+  margin: 0 auto 40px;
+}
+.main h1, .main h5{
+  color: #27343b;
+  text-align: left;
+}
+.main h5{
+  font-weight: normal;
+}
+
+form{
+  margin-top: 30px;
+}
+
+.el-button{
+  width: 360px;
+  background-color: #3f88c4;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 12px;
+  font-size: 16px;
+}
+.el-button:hover{
+  /*background-color: #305b7e;*/
+  background-color: #3775a8;
+}
+.mark{
+  text-align: right;
+  color: #3775a8;
+}
+.mark a{
+  text-decoration: none;
+  color: #3775a8;
+  font-size: 14px;
+}
+
+@media (max-width: 450px) {
+  .main{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .el-button{
+    width: 100%;
+  }
+}

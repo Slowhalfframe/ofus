@@ -1,0 +1,116 @@
+.container{
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+}
+nav{
+  width: 60%;
+  height: 50px;
+  /*background-color: #aaa;*/
+  margin: 0 auto;
+}
+nav .logo{
+  display: inline-block;
+  width: 40px;
+  height: 39px;
+  margin-top: 5px;
+  float: left;
+}
+nav a img{
+  line-height: 68px;
+  width: 40px;
+  height: 39px;
+}
+nav ul{
+  margin-left: 10px;
+}
+nav ul, nav ul li{
+  float: left;
+}
+nav ul li{
+  list-style: none;
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  line-height: 50px;
+}
+nav ul li a{
+  margin: 0;
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #222;
+  letter-spacing: 3px;
+  /*font-family: '楷体';*/
+}
+nav ul li a:hover{
+  border-bottom: 2px solid #3775a8;
+  color: #111;
+  background-color: #f1f1f1;
+  /*font-weight: bolder;*/
+}
+.search{
+  height: 35px;
+  width: 180px;
+  margin-top: 7px;
+  /*background-color: #bbb;*/
+  float: left;
+  margin-left: 20px;
+}
+.search >>> .el-input__inner{
+  height: 35px;
+}
+.search >>> .el-input__icon{
+  cursor: pointer;
+}
+
+.rightNav{
+  float: right;
+  /*width: 200px;*/
+  height: 50px;
+  /*background-color: #aaa;*/
+}
+.rightNav .writer{
+  width: 70px;
+  margin: 0 5px 0 0;
+}
+.rightNav div{
+  float: right;
+}
+.rightNav a{
+  float: none;
+  margin: 0 0 0 5px;
+  line-height: 50px;
+  color: #111111;
+  text-decoration: none;
+  display: inline-block;
+  width: 35px;
+  text-align: center;
+}
+.login{
+  line-height: 50px;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+
+/*对小于900px一下屏幕的适配*/
+
+@media (max-width: 900px) {
+  .container{
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  nav{
+    width: 90%;
+    /*text-align: center;*/
+  }
+  /*.logo{*/
+  /*  margin: 0 auto;*/
+  /*  float: none!important;*/
+  /*}*/
+
+}

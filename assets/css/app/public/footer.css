@@ -1,0 +1,14 @@
+.container{
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #8590a6;
+
+}
+
+.container a{
+  color: #000;
+  text-decoration: none;
+}

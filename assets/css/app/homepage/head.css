@@ -1,0 +1,61 @@
+.head{
+  width: 50%;
+  height: 200px;
+  margin: 30px auto;
+  /*background-color: #aaa;*/
+  text-align: center;
+  position: relative;
+  padding: 50px 0;
+}
+.bg{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*background-image: url('http://ofus.ink/static/articles/uepload/static/users/header/head.jpg');*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100% 100%;*/
+  opacity: .5;
+  z-index: -1;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+.avatar{
+  width: 89px;
+  height: 89px;
+  border-radius: 50%;
+}
+.head h3{
+  font-size: 19px;
+  margin: 10px 0;
+}
+.head h5{
+  font-size: 15px;
+  color: #333;
+}
+.attention{
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+.attention li{
+  list-style: none;
+  float: left;
+  width: 49%;
+  font-size: 15px;
+  color: #333;
+}
+
+@media (max-width: 900px) {
+  .head{
+    width: 100%;
+  }
+  .attention{
+    width: 100%;
+  }
+  .attention li{
+    width: 100%;
+  }
+}

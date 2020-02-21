@@ -1,0 +1,50 @@
+.lcf{
+  width: 45px;
+  height: 200px;
+  /*background-color: #aaa;*/
+  position: fixed;
+  left: 15%;
+  top: 30vh;
+  text-align: center;
+  line-height: 45px;
+}
+
+.like, .comment,.fav, .backTop{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 12px;
+  color: #345;
+}
+.iconfont{
+  font-size: 23px;
+}
+.like .iconfont:hover{
+  color: darkgreen;
+}
+.fav .iconfont:hover{
+  color: red;
+}
+.activeLike{
+  color: darkgreen;
+}
+.activefav{
+  color: red;
+}
+.backTop{
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .lcf{
+    left: 85%;
+    top: 50vh;
+  }
+  .backTop{
+    display: block;
+  }
+}

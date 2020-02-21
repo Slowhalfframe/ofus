@@ -1,0 +1,28 @@
+{
+  "name": "ofus",
+  "version": "1.0.0",
+  "description": "My rad Nuxt.js project",
+  "author": "Black",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "8001"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "element-ui": "^2.13.0",
+    "mavon-editor": "^2.7.7",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1"
+  }
+}
